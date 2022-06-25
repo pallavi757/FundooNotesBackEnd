@@ -39,12 +39,6 @@ export const getUser = async (req, res, next) => {
   }
 };
 
-/**
- * Controller to create a new user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
 export const newUser = async (req, res, next) => {
   try {
     const data = await UserService.newUser(req.body);
@@ -52,6 +46,24 @@ export const newUser = async (req, res, next) => {
       code: HttpStatus.CREATED,
       data: data,
       message: 'User created successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+/**
+ * Controller to create a new user signup
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const userSignup = async (req, res, next) => {
+  try {
+    const data = await UserService.userSignup(req.body);
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'User registered successfully'
     });
   } catch (error) {
     next(error);

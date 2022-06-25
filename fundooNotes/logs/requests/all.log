@@ -1,0 +1,58 @@
+info: ::1 - - [24/Jun/2022:09:05:29 +0000] "POST /api/user_registration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:09:05:51 +0000] "POST /api/user_registration/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:09:10:01 +0000] "POST /api/user_registration/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:11:16:10 +0000] "POST /api/user_registration/signup/signup HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:11:17:50 +0000] "POST /api/signup/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:11:18:08 +0000] "POST /api/user_registration/signup/signup HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:11:20:34 +0000] "POST /api/user_registration/signup/signup HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:11:21:05 +0000] "GET /api/user_registration/signup/signup HTTP/1.1" 200 278 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:11:25:01 +0000] "GET /api/user_registration/signup HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:12:35:51 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:12:36:10 +0000] "POST /api/v1/signup/signup HTTP/1.1" 201 272 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:12:36:32 +0000] "GET /api/v1/signup HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:03:55:40 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:03:56:01 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:03:56:12 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:03:56:55 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:03:57:29 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:04:00:13 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:04:00:50 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:04:03:09 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:04:03:20 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:04:06:21 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:06:16:13 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:06:17:03 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:17:33:17 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:17:40:07 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:17:48:23 +0000] "POST /api/v1/signup HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:17:56:00 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:17:56:11 +0000] "POST /api/v1/signup/signup HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+

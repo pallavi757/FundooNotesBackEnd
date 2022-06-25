@@ -1,0 +1,203 @@
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 8 characters long 
+    url - /api/user_registration/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T11:16:10.175Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 8 characters long 
+    url - /api/user_registration/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T11:18:08.551Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T03:56:12.878Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T03:56:55.852Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T03:57:29.485Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (H:\NodeJS\FundooNotes\fundooNotes\src\services\/user.service.js:10:24)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (H:\NodeJS\FundooNotes\fundooNotes\src\services\/user.service.js:10:21)
+    at _callee3$ (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:50:36)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T04:00:50.718Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (H:\NodeJS\FundooNotes\fundooNotes\src\services\/user.service.js:10:24)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (H:\NodeJS\FundooNotes\fundooNotes\src\services\/user.service.js:10:21)
+    at _callee3$ (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:50:36)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T04:03:09.547Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (H:\NodeJS\FundooNotes\fundooNotes\src\services\/user.service.js:10:24)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (H:\NodeJS\FundooNotes\fundooNotes\src\services\/user.service.js:10:21)
+    at _callee3$ (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:50:36)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T04:06:21.726Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserDB.users index: email_1 dup key: { email: "kotharipayal@gmail.com" } 
+      url - /api/v1/signup/signup 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-25T06:16:13.773Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (H:\NodeJS\FundooNotes\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (H:\NodeJS\FundooNotes\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T06:16:13.807Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.userSignup is not a function
+    at _callee3$ (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userSignup (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:60:24)
+    at Layer.handle [as handle_request] (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (H:\NodeJS\FundooNotes\fundooNotes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T17:40:07.367Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.userSignup is not a function
+    at _callee3$ (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userSignup (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:60:24)
+    at Layer.handle [as handle_request] (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (H:\NodeJS\FundooNotes\fundooNotes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T17:48:23.405Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.userSignup is not a function
+    at _callee3$ (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\NodeJS\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userSignup (H:\NodeJS\FundooNotes\fundooNotes\src\controllers\/user.controller.js:60:24)
+    at Layer.handle [as handle_request] (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (H:\NodeJS\FundooNotes\fundooNotes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (H:\NodeJS\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/signup/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T17:56:11.927Z"}

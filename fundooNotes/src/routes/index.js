@@ -8,10 +8,10 @@ import userRoute from './user.route';
  * @returns router
  */
 const routes = () => {
-  router.get('/', (req, res) => {
-    res.json('Welcome');
+  router.get('/', (req, res) => {    //check for endpoint
+    res.json('Welcome to User Registration');
   });
-  router.use('/users', userRoute);
+  router.use('/signup', userRoute);
 
   return router;
 };

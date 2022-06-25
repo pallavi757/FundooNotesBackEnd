@@ -1,12 +1,13 @@
 import User from '../models/user.model';
 
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
   return data;
 };
 
-//create new user
+//create new user for registration
 export const newUser = async (body) => {
   const data = await User.create(body);
   return data;
@@ -37,3 +38,4 @@ export const getUser = async (id) => {
   const data = await User.findById(id);
   return data;
 };
+ 
