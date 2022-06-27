@@ -11,7 +11,7 @@ const routes = () => {
   router.get('/', (req, res) => {    //check for endpoint
     res.json('Welcome to User Registration');
   });
-  router.use('/signup', userRoute);
+  router.use('/Users', userRoute);
 
   return router;
 };
