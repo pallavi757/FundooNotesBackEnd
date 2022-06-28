@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 
 //get all users
@@ -27,7 +28,8 @@ const result = await User.findOne({email:body.email});
 console.log(result);
 if(result!=null){
   const isSame = await bcrypt.compare(body.password,result.password); 
- 
+  var token = jwt.sign({ id: result._id,email:result.email }, process.env.SECREATEKEY);
+return token;
 if(isSame){
   console.log("paswword match");
   return result;
@@ -35,7 +37,7 @@ if(isSame){
   throw new Error("paswword not match");
 }
 }else{
-  throw new Error("email and password not found");
+  throw new Error("token not found");
 }
 };
 
